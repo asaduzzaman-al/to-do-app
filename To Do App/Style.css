@@ -1,0 +1,56 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #e9e9e9;
+}
+
+.todo_form .my-3 {
+  flex: 1;
+}
+
+.counter h1 {
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+}
+.bar {
+  height: 5px;
+  background-color: red;
+  display: none;
+  border-radius: 10px;
+}
+.todo-list ul li span {
+  background-color: red;
+  height: 5px;
+  z-index: 999999;
+  display: block;
+}
+
+.todo-list ul li {
+  margin-bottom: 10px;
+}
+.todo-list {
+  position: relative;
+}
+ul.list-group button {
+  position: absolute;
+  outline: none;
+  border: none;
+  background-color: #fff;
+  top: 0px;
+  right: 15px;
+  font-size: 18px;
+}
+
+/* .todo_list ul li {
+    margin-bottom: 10px;
+}
+.todo_list ul li span {
+    background-color: red;
+    height: 5px;
+    z-index: 999999;
+    display: block;
+  } */
